@@ -7,5 +7,5 @@ app = Flask(__name__)
 #app.route("/result",methods=["POST","GET"])
 
 def apiTesting():
-	output = {'Location':'Risk Assessment Project'}
+	output = 'Risk Assessment Project'
 	return output
