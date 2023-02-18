@@ -1,11 +1,9 @@
-from flask import Flask,jsonify
+from flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
 
-#app.route("/result",methods=["POST","GET"])
-
-def apiTesting():
+def home():
 	output = 'Risk Assessment Project'
 	return output
